@@ -8,13 +8,15 @@
     height: 700px;;
     width: auto;
 }
-
-h1, h2, h3, h4{
+body{
+    background-color: #f4f8ff;
+}
+h1, h2, h3, h4, p{
     font-family: 'Open Sans:600', sans-serif;
 }
 h1{}
 h2{
-    font-size: 1.5em;
+    font-size: 2em;
     align-content: center;
 }
 
@@ -22,6 +24,19 @@ h2{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    padding-top: 200px;
-    padding-bottom: 200px;
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+p{
+    max-width: 70%;
+    font-size: 1.5em;
+    align-content: center;
+    margin: 0 auto;
+    padding-bottom: 100px;
+}
+
+#why{
+    height: 100px;
+    width: 100%;
+    background-color: #29b887;
 }
