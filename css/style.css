@@ -34,7 +34,7 @@ h2{
 }
 
 #last{
-    height: 400px;
+    height: 500px;
     width: 100%;
     background-color: #fff;
     display: flex;
@@ -122,17 +122,22 @@ h2{
     font-size: 1.3em;
     margin: 0 auto;
     padding-bottom: 20px;
-    padding-top: 100px;
+    padding-top: 40px;
     line-height: 1.6em;
 }
 
 #last a{
-    width: 200px;
-    height: 30px;
     background-color: #29b887;
-    color: white;
-    text-align: center;
     text-decoration: none;
+    border-radius: 30px;
+    padding: 1.2em;
+    width: 225px;
+    display: -webkit-inline-flex;
+    justify-content: space-around;
+    color: white;
     margin: 0 auto;
-    
+}
+#last a:hover{
+    opacity: 0.7;
+    transition: 0.5s ease;
 }
