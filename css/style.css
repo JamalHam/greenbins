@@ -13,6 +13,29 @@
     height: 700px;;
     width: auto;
 }
+
+.header-image-2{
+    background-image:url(../images/leone-venter-469710.jpg);
+    background-repeat: no-repeat;
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+    height: 350px;;
+    width: auto;
+}
+
+.header-image-3{
+    background-image:url(../images/jerry-kiesewetter-179264.jpg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+    height: 350px;;
+    width: auto;
+}
 body{
     background-color: #f4f8ff;
 }
@@ -42,7 +65,7 @@ h2{
     flex-direction: column;
     margin: 0 auto;
 }
-#foot{
+.foot{
     height: 100px;
     width: 100%;
     background-color: #3d3d5c;
@@ -140,4 +163,117 @@ h2{
 #last a:hover{
     opacity: 0.7;
     transition: 0.5s ease;
+}
+#pOptions-Container{
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 80%;
+    margin: 0 auto;
+}
+.priceOptions{
+    width: 250px;
+    height: 400px;
+    background-color: #29b887;
+    color: white;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.priceOptions h2{
+    padding-top: 50px;
+}
+
+/*Form!*/
+#form{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    width: 100%;
+}
+
+form{
+    margin: 0 auto;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+}
+
+/*.eSend{
+    background-color: #29b887;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 30px;
+    width: 90px;
+    border:0 none;
+    display: -webkit-inline-flex;
+    color: white;
+    margin: 0 auto;
+}
+
+.eSend:hover{
+    opacity: 0.7;
+    transition: 0.5s ease;
+}*/
+
+input[type=submit]{
+    padding:5px 15px; 
+    background:#29b887; 
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    color: white;
+    margin: 0 auto;
+}
+
+input[type=submit]:hover{
+    opacity: 0.7;
+    transition: 0.5s ease;
+}
+
+form input{
+    width: 700px;
+    height: 45px;
+    border: 1px solid rgba(255,255,255,.4);
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box; 
+    display:block;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size:18px;
+    color:#fff;
+    padding-left:20px;
+    padding-right:20px;
+    margin-bottom:20px;
+    color:#6f6f70;
+}
+
+form textarea{
+    width: 700px;
+    height: 400px;
+    border: 1px solid rgba(255,255,255,.4);
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+    -moz-background-clip: padding;
+    -webkit-background-clip: padding-box;
+    background-clip: padding-box; 
+    display:block;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size:18px;
+    color:#fff;
+    padding-left:20px;
+    padding-right:20px;
+    margin-bottom:20px;
+    color:#6f6f70;
 }
