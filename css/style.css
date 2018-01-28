@@ -21,7 +21,7 @@
      -moz-background-size: cover;
      -o-background-size: cover;
      background-size: cover;
-    height: 350px;;
+    height: 400px;;
     width: auto;
 }
 
@@ -33,7 +33,7 @@
      -moz-background-size: cover;
      -o-background-size: cover;
      background-size: cover;
-    height: 350px;;
+    height: 400px;;
     width: auto;
 }
 body{
@@ -56,7 +56,7 @@ h2{
     padding-bottom: 50px;
 }
 
-#last{
+.last{
     height: 500px;
     width: 100%;
     background-color: #fff;
@@ -140,7 +140,7 @@ h2{
     z-index: 100;
 }
 
-#last p{
+.last p{
     max-width: 65%;
     font-size: 1.3em;
     margin: 0 auto;
@@ -149,7 +149,7 @@ h2{
     line-height: 1.6em;
 }
 
-#last a{
+.last a{
     background-color: #29b887;
     text-decoration: none;
     border-radius: 30px;
@@ -160,16 +160,40 @@ h2{
     color: white;
     margin: 0 auto;
 }
-#last a:hover{
+.last a:hover{
     opacity: 0.7;
     transition: 0.5s ease;
 }
+#wBuy{
+    background-color: #29b887;
+    text-decoration: none;
+    border-radius: 30px;
+    padding: 1.2em;
+    width: 275px;
+    display: -webkit-inline-flex;
+    justify-content: space-around;
+    color: white;
+    margin: 0 auto;
+}
+
+#wBuy:hover{
+    opacity: 0.7;
+    transition: 0.5s ease;
+}
+
+#pButton{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 50px 0 50px 0;
+}
+
 #pOptions-Container{
     padding-top: 75px;
     padding-bottom: 100px;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content:space-between;
     flex-wrap: wrap;
     max-width: 80%;
     margin: 0 auto;
@@ -177,7 +201,7 @@ h2{
 .priceOptions{
     width: 250px;
     height: 400px;
-    background-color: #29b887;
+    background-color: lightgrey;
     color: white;
     text-align: center;
     margin: 0 auto;
@@ -186,6 +210,7 @@ h2{
 
 .priceOptions h2{
     padding-top: 50px;
+    color: 
 }
 
 #pricing-intro{
@@ -206,7 +231,6 @@ h2{
     flex-direction: column;
     flex-wrap: wrap;
     margin: 0 auto;
-    width: 100%;
 }
 
 form{
@@ -258,7 +282,6 @@ input[type=submit]:hover{
 }
 
 form input{
-    width: 700px;
     height: 45px;
     border: 1px solid rgba(255,255,255,.4);
     -moz-border-radius: 4px;
@@ -278,7 +301,7 @@ form input{
 }
 
 form textarea{
-    width: 700px;
+    /*width: 700px;*/
     height: 400px;
     border: 1px solid rgba(255,255,255,.4);
     -moz-border-radius: 4px;
@@ -296,7 +319,55 @@ form textarea{
     margin-bottom:20px;
     color:#6f6f70;
 }
-@media screen and (min-width: 500px) and (max-width: 900px){
+input, textarea{
+    width: 800px !important;
+}
+hr{
+    display: none;
+}
+@media screen and (min-width: 901px) and (max-width: 1125px){
+#intro img{
+    display: none;
+}     
+}
+@media screen and (min-width: 700px) and (max-width: 900px){
+ .header-image{
+     background-image:url(../images/frogbox.jpeg);
+    background-repeat: no-repeat;
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+    height: 400px;;
+    width: auto;
+}
+#intro{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    max-width: 80%;
+    margin: 0 auto;
+    height: 600px;
+}
+
+input, textarea{
+    width: 600px !important;
+}
+#intro img{
+    display: none;
+}   
+#fom-intro{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size:24px;
+    padding-top: 50px;
+    color:#6c6c6d;
+    margin: 0 auto;
+    text-align: center;
+} 
+ 
+}
+@media screen and (min-width: 500px) and (max-width: 699px){
 .header-image{
      background-image:url(../images/frogbox.jpeg);
     background-repeat: no-repeat;
@@ -314,15 +385,96 @@ form textarea{
     justify-content: space-around;
     max-width: 80%;
     margin: 0 auto;
-    height: 1100px;
+    height: 600px;
+}    
+#heading1 h2{
+    font-size: 1.75em;    
 }
-    
+input, textarea{
+    width: 400px !important;
+}
 #intro img{
     display: none;
 }
+#fom-intro{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size:20px;
+    padding-top: 50px;
+    color:#6c6c6d;
+    margin: 0 auto;
+    text-align: center;
+}
+#pOptions-Container{
+height: 1200px;        
+}
+.priceOptions{
+ width: 100%;
+ height: 300px;
+} 
+.priceOptions h2{
+ color: #29b887;       
+}    
+}
+@media screen and (min-width: 300px) and (max-width: 499px){
+ .header-image{
+     background-image:url(../images/frogbox.jpeg);
+    background-repeat: no-repeat;
+     -webkit-background-size: cover;
+     -moz-background-size: cover;
+     -o-background-size: cover;
+     background-size: cover;
+    height: 250px;;
+    width: auto;
+}
+#intro{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    max-width: 80%;
+    margin: 0 auto;
+    height: 900px;
 }
 
-@media screen and (min-width: 200px) and (max-width: 499px){
+#intro img{
+    display: none;
+} 
+    
+#heading1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}  
+
+#heading1 h2{
+    font-size: 1.5em;    
+}  
+   
+.last{
+    height: 700px;
+    width: 100%;
+    background-color: #fff;
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    text-align: center;
+    margin: 0 auto;
+}
+input, textarea{
+    width: 300px !important;
+} 
+#fom-intro{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size:16px;
+    padding-top: 50px;
+    color:#6c6c6d;
+    margin: 0 auto;
+    text-align: center;
+}     
+}
+@media screen and (min-width: 200px) and (max-width: 299px){
 .header-image{
      background-image:url(../images/frogbox.jpeg);
     background-repeat: no-repeat;
@@ -359,7 +511,7 @@ form textarea{
     font-size: 1.5em;    
 }  
    
-#last{
+.last{
     height: 700px;
     width: 100%;
     background-color: #fff;
@@ -368,5 +520,16 @@ form textarea{
     flex-direction: column;
     text-align: center;
     margin: 0 auto;
-}    
+}
+input, textarea{
+    width: 200px !important;
+} 
+#fom-intro{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size:16px;
+    padding-top: 50px;
+    color:#6c6c6d;
+    margin: 0 auto;
+    text-align: center;
+}      
 }
