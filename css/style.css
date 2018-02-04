@@ -12,6 +12,7 @@
      background-size: cover;
     height: 600px;;
     width: auto;
+    transition-delay: 2s;
 }
 
 .header-image-2{
@@ -136,8 +137,10 @@ h2{
 
 #why .icons p{
     color: white;
-    font-size: 1em;
+    font-size: 1.2em;
+    line-height: 1.4em;
     z-index: 100;
+    text-align: center;
 }
 
 .last p{
@@ -164,6 +167,41 @@ h2{
     opacity: 0.7;
     transition: 0.5s ease;
 }
+
+#goTop{
+    float: right;
+    width: 50px;
+	height: 50px;
+	background: #3d3d5c;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+	border-radius: 50px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 250;
+    opacity: 0.4;
+}
+#goTop:hover{
+    opacity: 0.8;
+    transition: 0.5s ease;
+}
+
+i {
+    border: solid #fff;
+    border-width: 0 3px 3px 0;
+    margin: 0;
+    position: relative;
+    bottom: 33px;
+    right: 35px;
+    display: inline-block;
+    padding: 8px;
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+    position: inherit;
+    z-index: 251;
+}
+
 #wBuy{
     background-color: #29b887;
     text-decoration: none;
@@ -201,7 +239,7 @@ h2{
 .priceOptions{
     width: 250px;
     height: 400px;
-    background-color: lightgrey;
+    background-color: #29b887;
     color: white;
     text-align: center;
     margin: 0 auto;

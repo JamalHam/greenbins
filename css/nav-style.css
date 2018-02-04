@@ -1,6 +1,6 @@
 .navigation {
   height: 60px;
-  background: #6c6c6d;
+  background: #3d3d5c;
 }
 .brand {
   position: absolute;
@@ -34,13 +34,14 @@ nav ul li a, nav ul li a:visited {
   display: block;
   padding: 0 20px;
   line-height: 60px;
-  background: #6c6c6d;
+  background: #3d3d5c;
   color: #fff;
   text-decoration: none;
 }
 nav ul li a:hover, nav ul li a:visited:hover {
-  background: #2581dc;
+  background: #575784;
   color: #fff;
+  transition: 0.5s ease;
 }
 nav ul li a:not(:only-child):after, nav ul li a:visited:not(:only-child):after {
   padding-left: 4px;
@@ -65,7 +66,7 @@ nav ul li ul li a {
   position: absolute;
   top: 0;
   right: 0;
-  background: #262626;
+  background: #3d3d5c;
   height: 60px;
   width: 70px;
 }
@@ -75,7 +76,7 @@ nav ul li ul li a {
   }
   nav {
     width: 100%;
-    padding: 70px 0 15px;
+    padding: 60px 0 15px;
   }
   nav ul {
     display: none;
