@@ -27,7 +27,7 @@
 }
 
 .header-image-3{
-    background-image:url(../images/jerry-kiesewetter-179264.jpg);
+    background-image:url(../images/jerry-kiesewetter-extraWhite.jpg);
     background-repeat: no-repeat;
     background-position: bottom;
      -webkit-background-size: cover;
@@ -43,7 +43,13 @@ body{
 h1, h2, h3, h4, p, a{
     font-family: 'Open Sans:600', sans-serif;
 }
-h1{}
+h1{
+    font-size: 5em;
+    text-align: center;
+    padding-top: 150px;
+    color: #3d3d5c/*#29b887*/;
+    
+}
 h2{
     font-size: 3em;
     align-content: center;
@@ -396,6 +402,11 @@ input, textarea{
 }
 hr{
     display: none;
+}
+
+.Footer-copyright{
+    color: white;
+    padding-top: 44px;
 }
 @media screen and (min-width: 200px) and (max-width:1100px){
 #pOptions-Container{
