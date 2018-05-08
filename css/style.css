@@ -3,8 +3,15 @@
     padding:0; 
     box-sizing:border-box;
 }
+
+html{
+    /*sets default font size to 10px*/
+    font-size: 84%;
+}
+
+
 .header-image{
-     background-image:url(../images/frogbox.jpeg);
+     background-image:url(../images/box-truck-edited.jpg);
     background-repeat: no-repeat;
      -webkit-background-size: cover;
      -moz-background-size: cover;
@@ -22,7 +29,7 @@
      -moz-background-size: cover;
      -o-background-size: cover;
      background-size: cover;
-    height: 400px;;
+    height: 400px;
     width: auto;
 }
 
@@ -44,14 +51,14 @@ h1, h2, h3, h4, p, a{
     font-family: 'Open Sans:600', sans-serif;
 }
 h1{
-    font-size: 5em;
+    font-size: 8rem;
     text-align: center;
     padding-top: 150px;
     color: #3d3d5c/*#29b887*/;
     
 }
 h2{
-    font-size: 3em;
+    font-size: 3.8rem;
     align-content: center;
 }
 
